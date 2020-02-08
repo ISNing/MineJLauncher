@@ -1,0 +1,133 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MineJLauncher</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MineJLauncher</string>
+    <string name="nav_header_subtitle">A launcher of Minecraft Java Edition</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="auth_useragent">MineJLauncher</string>
+    <string name="auth_mojang_api_url">https://authserver.mojang.com</string>
+
+    <string name="download_useragent">MineJLauncher</string>
+
+    <string name="running_memory">1024</string>
+
+    <string name="menu_lunch">Lunch</string>
+    <string name="menu_runtime_dl">Runtime Downloads</string>
+    <string name="menu_game_dl">Game Downloads</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_open_source">Open Sources</string>
+    <string name="about_this_app">About this app</string>
+    <string name="minecraft">Minecraft</string>
+    <string name="forge">Forge</string>
+    <string name="optfine">Optfine</string>
+
+    <string name="introductions">Introductions</string>
+    <string name="image_of_control_button">Image of control button</string>
+    <string name="icon_of_show_introduction_button">Icon of show introduction button</string>
+    <string name="file_card_background">File card background</string>
+    <string name="lunch_text_version">Version:</string>
+    <string name="lunch_text_jvm">JVM:</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_auth_server">Auth Server Url</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome! "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_apiurl">Invalid Url</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="login_login">Login</string>
+    <string name="login_logout">Logout</string>
+    <string name="login_is_demo_account">This account doesn\'t seems to have a Minecraft user linked to it. Did you buy Minecraft? You can play in offline mode or authlib-injector by choosing the "Login mode"</string>
+    <string name="login_logging_in">Logging in...</string>
+    <string name="login_login_mode">Login mode:</string>
+    <string name="login_error">Login failed, result:</string>
+
+    <string name="setting_download_settings">Download Settings</string>
+    <string name="setting_download_server">File Download Server</string>
+    <string name="setting_download_server_official">Official</string>
+    <string name="setting_download_server_bmclapi">BMCLAPI</string>
+    <string name="setting_download_useragent">Download UserAgent</string>
+
+    <string name="setting_running">Running</string>
+    <string name="setting_running_memory">Max Jvm memory/M</string>
+    <string name="setting_running_append_jvm">Append Jvm command</string>
+    <string name="setting_running_append_minecraft">Append Minecraft command</string>
+
+    <string name="setting_auth">Authentication</string>
+    <string name="setting_auth_useragent">Authentication UserAgent</string>
+    <string name="setting_auth_mode_official">Official</string>
+    <string name="setting_auth_mode_authlibinjector">authlib-injector</string>
+    <string name="setting_auth_mode_offline">Offline</string>
+
+
+    <string name="list_download_progress_new">
+        <xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g>
+        of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> •
+        <xliff:g id="percentage" example="56">%3$s</xliff:g>
+    </string>
+    <string name="list_download_progress_eta_new">
+        <xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g>
+        of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta"
+        example="3 minutes left">
+        %3$s</xliff:g>) •
+        <xliff:g id="percentage" example="56">%4$s</xliff:g>
+    </string>
+    <string name="list_verifying_component">Verifying component</string>
+
+    <string name="confirm_delete_dialog_title">Delete component</string>
+    <string name="confirm_delete_dialog_message">Delete the selected component?</string>
+
+    <string name="confirm_remove_dialog_title">Remove component</string>
+    <string name="confirm_remove_dialog_message">Remove the selected component?</string>
+
+    <string name="cancel_installation_dialog_message">Cancel the installation?</string>
+    <string name="ongoing_channel_title">Ongoing downloads</string>
+
+    <string name="verification_failed_notification">Verification failed</string>
+    <string name="verifying_download_notification">Verifying file</string>
+    <string name="downloading_notification">Downloading</string>
+    <string name="download_paused_notification">Download paused</string>
+    <string name="download_paused_error_notification">Download error</string>
+    <string name="download_completed_notification">Download completed</string>
+    <string name="download_starting_notification">Starting download</string>
+
+    <string name="installing_component">Installing component package</string>
+    <string name="installing_component_error">Install error</string>
+    <string name="installing_component_finished">Component installed</string>
+
+    <string name="pause_button">Pause</string>
+    <string name="resume_button">Resume</string>
+    <string name="lunch_button">Lunch</string>
+
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+
+    <plurals name="eta_seconds">
+        <item quantity="one">1 second left</item>
+        <item quantity="other">
+            <xliff:g id="count">%d</xliff:g>
+            seconds left
+        </item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minute left</item>
+        <item quantity="other">
+            <xliff:g id="count">%d</xliff:g>
+            minutes left
+        </item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hour left</item>
+        <item quantity="other">
+            <xliff:g id="count">%d</xliff:g>
+            hours left
+        </item>
+    </plurals>
+</resources>

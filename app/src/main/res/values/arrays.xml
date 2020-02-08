@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_download_server_entries">
+        <item>@string/setting_download_server_official</item>
+        <item>@string/setting_download_server_bmclapi</item>
+    </string-array>
+    <string-array name="setting_download_server_values">
+        <item>official</item>
+        <item>bmclapi</item>
+    </string-array>
+
+    <string-array name="setting_auth_mode_entries">
+        <item>@string/setting_auth_mode_official</item>
+        <item>@string/setting_auth_mode_authlibinjector</item>
+        <item>@string/setting_auth_mode_offline</item>
+    </string-array>
+    <string-array name="setting_auth_mode_values">
+        <item>official</item>
+        <item>authlibinjector</item>
+        <item>offline</item>
+    </string-array>
+</resources>

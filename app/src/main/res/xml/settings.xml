@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:title="@string/setting_download_settings">
+        <ListPreference
+            android:key="download_server"
+            android:entries="@array/setting_download_server_entries"
+            android:entryValues="@array/setting_download_server_values"
+            android:title="@string/setting_download_server" />
+        <EditTextPreference
+            android:key="download_useragent"
+            android:title="@string/setting_download_useragent"
+            android:selectable="false"
+            android:defaultValue="@string/download_useragent"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_auth">
+        <EditTextPreference
+            android:key="auth_useragent"
+            android:title="@string/setting_auth_useragent"
+            android:selectable="false"
+            android:defaultValue="@string/auth_useragent"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_running">
+        <!--<SwitchPreference
+            android:key="clean_cache_after_install"
+            android:title="@string/setting_clean_cache_after_update"
+            android:defaultValue="false"
+            android:summary="@string/setting_clean_cache_after_update_summary" />-->
+        <EditTextPreference
+            android:key="memory"
+            android:title="@string/setting_running_memory"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="append_jvm"
+            android:title="@string/setting_running_append_jvm"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="append_minecraft"
+            android:title="@string/setting_running_append_minecraft"
+            android:selectable="false"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

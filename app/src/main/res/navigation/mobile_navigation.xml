@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_lunch">
+
+    <fragment
+        android:id="@+id/nav_lunch"
+        android:name="org.exthmui.minejlauncher.ui.lunch.LunchFragment"
+        android:label="@string/menu_lunch"
+        tools:layout="@layout/fragment_lunch" />
+
+    <fragment
+        android:id="@+id/nav_runtime_dl"
+        android:name="org.exthmui.minejlauncher.ui.runtime_dl.RuntimeDlFragment"
+        android:label="@string/menu_runtime_dl"
+        tools:layout="@layout/fragment_runtime_dl" />
+
+    <fragment
+        android:id="@+id/nav_game_dl"
+        android:name="org.exthmui.minejlauncher.ui.game_dl.GameDlFragment"
+        android:label="@string/menu_game_dl"
+        tools:layout="@layout/fragment_game_dl" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="org.exthmui.minejlauncher.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_open_source"
+        android:name="org.exthmui.minejlauncher.ui.open_source.OpenSourceFragment"
+        android:label="@string/menu_open_source"
+        tools:layout="@layout/fragment_opensource" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="org.exthmui.minejlauncher.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

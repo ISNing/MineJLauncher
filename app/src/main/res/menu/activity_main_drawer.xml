@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lunch"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_lunch" />
+        <item
+            android:id="@+id/nav_runtime_dl"
+            android:icon="@drawable/ic_menu_component"
+            android:title="@string/menu_runtime_dl" />
+        <item
+            android:id="@+id/nav_game_dl"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_game_dl" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_settings" />
+    </group>
+
+    <item android:title="@string/about_this_app">
+        <menu>
+            <item
+                android:id="@+id/nav_open_source"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_open_source" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_component"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+</menu>
